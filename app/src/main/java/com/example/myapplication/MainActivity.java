@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         button = (Button) findViewById(R.id.login);
         button.setOnClickListener(v -> navigateToSecondActivity());
+
+
     }
 
     void navigateToSecondActivity(){
