@@ -100,7 +100,7 @@ public class MainActivity2 extends AppCompatActivity {
                     points++;
                     score.setText(points + "/10");
                 } else {
-                    Toast.makeText(this, "Incorrect", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Incorrect" , Toast.LENGTH_SHORT).show();
                     score.setText(points + "/10");
                 }
             }
@@ -110,7 +110,7 @@ public class MainActivity2 extends AppCompatActivity {
                     points++;
                     score.setText(points + "/10");
                 } else {
-                    Toast.makeText(this, "Incorrect", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Incorrect, the right answer is " + product, Toast.LENGTH_SHORT).show();
                     score.setText(points + "/10");
                 }
             }
